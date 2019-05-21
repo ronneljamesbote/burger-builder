@@ -1,0 +1,21 @@
+{
+  "ingredient_list": {
+    "bacon": {
+      "price": 30,
+      "sort": 3
+    },
+    "cheese": {
+      "price": 15,
+      "sort": 2
+    },
+    "meat": {
+      "price": 25,
+      "sort": 1
+    },
+    "salad": {
+      "price": 10,
+      "sort": 4
+    }
+  },
+  "orders": {}
+}
