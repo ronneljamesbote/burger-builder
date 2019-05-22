@@ -13,7 +13,7 @@ const SideDrawer = ({ open, onClose }) => {
   return (
     <React.Fragment>
       <Backdrop show={open} onClick={onClose} />
-      <div className={navigationClass.join(" ")}>
+      <div className={navigationClass.join(" ")} onClick={onClose}>
         <div className={styles.Logo}>
           <Logo />
         </div>
